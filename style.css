@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* Nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 10vh;
+    font-size: 4vh;
+}
+
+.title {
+    font-weight: bolder;
+    color: blueviolet;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* main */
+
+main{
+    background-color: white;
+    height: 80vh;
+    margin: 0 10vw;
+}
+
+.content-block{
+    padding: 2em;
+}
+
+.color-picker{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type="color"] {
+    padding: 0;
+    border: none; /* optional */
+    background: none; /* optional */
+    height: 7vh; /* control height if needed */
+    width: 4vw;  /* control width if needed */
+}
+
+select {
+    width: 30vw;
+    max-height: 8vh;
+    padding: 2vh;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+button{
+    padding: 15px 20px;
+    font-size: 1em;
+    border: 1px solid #D1D5DB;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 10vh;
+    font-size: 3vh;
+}
+.footer-text {
+    font-weight: bolder;
+    color: blueviolet;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
