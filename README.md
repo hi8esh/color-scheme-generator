@@ -15,7 +15,7 @@ A web app that lets you pick a color and instantly generate beautiful color sche
 
 ## 🧪 Live Demo
 
-Check it out here 👉 [Live Demo](https://your-live-url.com)
+Check it out here 👉 [Live Demo](https://generatecolorschemes.netlify.app)
 
 ## 🚀 How to Use
 
