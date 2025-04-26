@@ -107,7 +107,7 @@ button:hover {
 .color-display {
     display: flex;
     gap: 0;
-    height: 300px; /* You can adjust this as needed */
+    height: 300px;
     margin-bottom: 2em;
 }
 
@@ -191,7 +191,7 @@ footer {
         flex-direction: column;
         width: 100%;
         margin-bottom: 1em;
-        border: 1px solid #ccc; /* optional, for debug */
+        border: 1px solid #ccc;
     }
 
     .color-box {
