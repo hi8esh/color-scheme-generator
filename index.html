@@ -13,22 +13,33 @@
     <main>
         <section class="content-block">
             <div class="color-picker">
-                <input type="color" name="" id="">
-                <select name="Color Scheme Mode" id="">
-                    <option value="Monochrome">Monochrome</option>
-                    <option value="Monochrome-dark">Monochrome-dark</option>
-                    <option value="Monochrome-light">Monochrome-light</option>
-                    <option value="Analogic">Analogic</option>
-                    <option value="Complement">Complement</option>
-                    <option value="Analogic-complement">Analogic-complement</option>
-                    <option value="Triad">Triad</option>
-                </select>
-                <button>Get Color Scheme</button>
+                <label>
+                    Pick a Color:
+                    <input type="color" id="color-picker">
+                </label>
+                <label>
+                    Select Scheme:
+                    <select id="mode-picker">
+                        <option value="Monochrome">Monochrome</option>
+                        <option value="Monochrome-dark">Monochrome-dark</option>
+                        <option value="Monochrome-light">Monochrome-light</option>
+                        <option value="Analogic">Analogic</option>
+                        <option value="Complement">Complement</option>
+                        <option value="Analogic-complement">Analogic-complement</option>
+                        <option value="Triad">Triad</option>
+                        <option value="Quad">Quad</option>
+                    </select>
+                </label>
+                <button id="generate-btn">Get Color Scheme</button>
+            </div>
+        
+            <div class="color-display" id="color-display">
+                <!-- JavaScript will fill this with colors -->
             </div>
         </section>
-    </main>
+    </main>        
     <footer>
-        <div class="footer-text">Made with love by @hi8esh</div>
+        <div class="footer-text">Made with 💜 by <a href="https://github.com/hi8esh" target="_blank">@hi8esh</a></div>
     </footer>
 </body>
     <script src="./script.js"></script>
